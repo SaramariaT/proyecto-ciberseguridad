@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Rajdhani:wght@400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Share+Tech+Mono&display=swap');
+body {
+    font-family: 'Rajdhani', sans-serif;
+    color: #003249;
+    background-color: #9AD1D4;
+}
+
+h1, h2 {
+    font-family: 'Share Tech Mono', monospace;
+}
+header {
+    background-color: #003249;
+    color: #9AD1D4;
+    padding: 24px 0;
+    text-align: center;
+}
+
+section {
+    padding: 48px 32px;
+}
+
+.ciberseguridad {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    gap: 32px;
+}
+
+.ciberseguridad-info {
+    flex: 1;
+    min-width: 300px;
+}
+
+.ciberseguridad-info h2 {
+    margin-bottom: 16px;
+    color: #003249;
+}
+
+.ciberseguridad-info p {
+    margin-bottom: 16px;
+    font-size: 20px;
+    justify-content: stretch;
+}
+
+.ciberseguridad-imagen {
+    flex: 1;
+    min-width: 300px;
+}
+
+.intro {
+    background-color: #007EA7;
+    color: #9AD1D4;
+    text-align: center;
+    padding: 48px 32px;
+}
+
+.intro h2 {
+    font-size: 40px;
+    margin-bottom: 16px;
+}
+
+.intro p {
+    font-size: 20px;
+    max-width: 800px;
+    margin: 0 auto;
+}
