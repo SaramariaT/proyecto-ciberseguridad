@@ -201,24 +201,31 @@ section {
     margin-right: auto;
 }
 
-.conceptos-flex > div {
-    flex: 1 1 30%;
-    max-width: 220px;
+..conceptos-flex > div {
+    flex: 1 1 200px;
+    max-width: 200px;
     min-width: 180px;
     text-align: center;
     display: flex;
     flex-direction: column;
-    justify-content: flex-start;
-    height: 200px; /* Ajusta según lo que necesites */
+    align-items: center;
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+    padding: 12px 8px 8px 8px;
+    margin-bottom: 8px;
+    height: 220px;
 }
+
 
 .conceptos-flex img {
     width: 100%;
     height: 120px;
     object-fit: cover;
     object-position: center;
-    background: #fff;
     border-radius: 8px;
+    background: #fff;
     box-shadow: 0 2px 8px rgba(0,0,0,0.12);
+    margin-bottom: 8px;
     display: block;
 }
