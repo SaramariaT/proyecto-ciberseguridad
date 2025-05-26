@@ -163,3 +163,23 @@ section {
 .nav-button:hover {
     background-color: #007EA7;
 }
+
+amenazas-flex {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 24px;
+    justify-content: center;
+    margin: 32px 0;
+}
+.amenazas-flex > div {
+    flex: 1 1 180px;
+    max-width: 220px;
+    text-align: center;
+}
+.amenazas-flex img {
+    width: 100%;
+    height: 140px;
+    object-fit: cover;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.12);
+}
